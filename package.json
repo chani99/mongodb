@@ -1,0 +1,27 @@
+{
+  "name": "chani",
+  "version": "1.0.0",
+  "description": "try_me",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "nodejs-model": "^0.1.6",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
